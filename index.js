@@ -8,7 +8,8 @@ module.exports = function(sails) {
 	return {
 		setdatapointonoff : setdatapointonoff,
 		setdatapointvalue: setdatapointvalue,
-		exec: exec
+		exec: exec,
+		init: init
 
 	};
 };
