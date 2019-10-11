@@ -1,4 +1,4 @@
-momodule.exports = function(sails) {
+module.exports = function(sails) {
 	
 	var exec = require('./lib/exec.js')
 	var init = require('./lib/init.js')
