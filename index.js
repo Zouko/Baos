@@ -2,14 +2,15 @@ module.exports = function(sails) {
 	
 	var exec = require('./lib/exec.js')
 	var init = require('./lib/init.js')
-	var setdatapointvalue = require('./lib/setdatapointvalue.js')
-	var setdatapointonoff = require('./lib/setdatapointonoff.js')
+	var command = require('.lib/command.js')
+	var setdatapoint = require('./lib/setdatapoint.js')
+
 	
 	return {
-		setdatapointonoff : setdatapointonoff,
-		setdatapointvalue: setdatapointvalue,
+		setdatapoint : setdatapoint,
 		exec: exec,
-		init: init
+		init: init,
+		command: command
 
 	};
 };
