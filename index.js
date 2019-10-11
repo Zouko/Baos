@@ -1,8 +1,8 @@
-module.exports = function(sails) {
+momodule.exports = function(sails) {
 	
 	var exec = require('./lib/exec.js')
 	var init = require('./lib/init.js')
-	var command = require('.lib/command.js')
+	var command = require('./lib/command.js')
 	var setdatapoint = require('./lib/setdatapoint.js')
 
 	
@@ -14,4 +14,3 @@ module.exports = function(sails) {
 
 	};
 };
-
